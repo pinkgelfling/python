@@ -1,0 +1,52 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;  <3    ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+
+#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+
+#Write your code below this line 👇
+print("Following a path, you arrive at a fork in the road.")
+dir = input("Do you go left or right? ")
+if dir == "left":
+          print("What's this? A lake? Do you want to swim or wait for a boat?")
+          lake = input("Type swim or wait. ")
+          if lake == "wait":
+                    print ("Hooray! Kudos for having patience!")
+                    print("You head down a winding path that brings you to three doors. One is orange, one is pink, and one is purple. Two lead to certain death")
+                    door = input("Which color door do you choose? ")
+                    if door == "orange":
+                              print("You found the treasure! Hope you enjoy your basket of bunnies!")
+                              print('''
+/) (\          /) (\\
+
+\| |/          \| |/
+ (")   <3       (")
+  ^              ^
+                                    ''')
+                    else:
+                              print("You died of disentery.")
+          else:
+                    print("You jump into the lake. Doesn't it feel good? Nice cool water..gentle waves around you..wait. What was that? Is something..biting your toes?! Oh no. Oh crud. You're surrounded by frickin' PIRANHAS! AHHHHH! I bet that hurts!! Oh, wait, nope you're dead now.")
+else:
+          print("Ooops! You fall into the pit of hamsters and get eaten very very slowly.")
